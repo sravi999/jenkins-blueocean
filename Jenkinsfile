@@ -2,9 +2,8 @@ pipeline {
   agent any
   stages {
     stage('test') {
-      agent any
       environment {
-        DASHOBARD = 'BlueOcean'
+        DASHBOARD = 'BlueOcean'
       }
       steps {
         sh 'echo "Created Jenkinsfile from BlueOcean Dashboard"'
