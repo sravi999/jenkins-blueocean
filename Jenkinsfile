@@ -19,7 +19,7 @@ pipeline {
 
     stage('print') {
       steps {
-        sh 'sh "printenv"'
+        sh '"printenv"'
       }
     }
 
